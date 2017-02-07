@@ -1,0 +1,104 @@
+body {
+  color: #fff;
+  background-color: #323232;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  padding-top: 5%;
+  text-align: center;
+}
+
+h1 {
+  font-style: normal;
+  margin: 0;
+  text-shadow: 2px 2px black;
+}
+
+img {
+  border-radius: 5%;
+}
+
+.allAffixes {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.allAffixes div {
+  max-width: 35%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;;
+}
+
+.allAffixes img {
+  height: 100px;
+  width: 100px;
+  border-radius: 0;
+  display: block;
+}
+
+.arrowButton {
+  font-size: 300%;
+  margin: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.betweenText {
+  display: flex;
+  flex-flow: column;
+}
+
+.betweenText h1 {
+  margin-top: 45%;
+  width: 100%;
+}
+
+.title {
+  font-size: 40px
+}
+
+.affixDisplays {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.affixesEU, .affixesUS {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.lastAffixesEU, .lastAffixesUS {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  opacity: 0.3;
+}
+
+.nextAffixesEU, .nextAffixesUS {
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  opacity: 0.3;
+}
+
+.affix {
+  margin: 15px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.smallAffix {
+  margin: 15px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 12px;
+}
