@@ -28,8 +28,8 @@ jQuery(document).ready(function($) {
   $(function(){
     var today = new Date();
     var weekno = today.getWeek();
-    var affixWeekEU = weekno + 3;
-    var affixWeekUS = weekno + 1;
+    var affixWeekEU = weekno + 4;
+    var affixWeekUS = weekno + 2;
 
     if(new Date().getDay() >= 3){
       affixWeekEU += 1;
